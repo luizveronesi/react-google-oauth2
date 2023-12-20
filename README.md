@@ -41,6 +41,6 @@ Add your Google Client ID at file environment/.env.localhost, replacing ${REACT_
 
 Google Client ID may be found at https://console.cloud.google.com/, under section Credentials, topic OAuth 2.0 Client IDs.
 
-## Configuration
+## Demo
 
 A demo may be found at: https://services.texugo.com.br/demo/react-google-oauth2/
