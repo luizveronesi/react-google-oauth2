@@ -29,6 +29,18 @@ docker start react-google-oauth2
 npm start
 ```
 
+|                Action |              URL               | Description                                                                                                                             |
+| --------------------: | :----------------------------: | --------------------------------------------------------------------------------------------------------------------------------------- |
+|               `Login` |     http://localhost:3000      | Displays login page with Google login button.                                                                                           |
+|              `Logout` |  http://localhost:3000/logout  | Logout url. It is also triggered by the logout button.                                                                                  |
+| `Login with redirect` | http://localhost:3000/redirect | Example Redirect url. It may be any url to which the user will be redirected after the login. Its route must be set at LoggedRoutes.tsx |
+
 ## Configuration
 
-Add configuration.
+Add your Google Client ID at file environment/.env.localhost, replacing ${REACT_GOOGLE_KEY} with your client ID. You may also add it to your environment variables, as in the example.
+
+Google Client ID may be found at https://console.cloud.google.com/, under section Credentials, topic OAuth 2.0 Client IDs.
+
+## Configuration
+
+A demo may be found at: https://services.texugo.com.br/demo/react-google-oauth2/

@@ -27,10 +27,13 @@
     }
 
     .body {
+      width: 1000px;
+      overflow-x: auto;
       margin-top: 24px;
 
       .line {
         height: 32px;
+        word-break: break-all;
 
         > b {
           margin-right: 8px;
@@ -48,6 +51,15 @@
       > .btn {
         width: 80%;
       }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .home-container {
+    padding: 16px;
+    .box {
+      width: 100%;
     }
   }
 }

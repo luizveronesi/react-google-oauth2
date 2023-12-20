@@ -56,7 +56,7 @@ export default function Login() {
     <div className="box-container">
       <div className="box">
         <img src={logo} />
-        <h1 className="h4 text-gray-900 mb-4">Login using Google OAuth2</h1>
+        <h1 className="h4 text-center mb-4">Login using Google OAuth2</h1>
         <div className="google-login">
           <GoogleOAuthProvider clientId={import.meta.env.VITE_APP_GOOGLE_KEY}>
             <GoogleLogin onSuccess={onSuccess} onError={onFailure} />

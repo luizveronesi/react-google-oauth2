@@ -1,14 +1,15 @@
 import logo from '@/assets/logo.png';
 import { useState } from 'react';
-import { useRouteError } from 'react-router-dom';
+import { useNavigate, useRouteError } from 'react-router-dom';
 import './style.scss';
 
 export default function NotFound() {
+  const navigate = useNavigate();
   const [show, setShow] = useState(false);
   const error = useRouteError();
 
   const handleRedirect = () => {
-    window.location.href = '/';
+    navigate(`/`);
   };
 
   return (

@@ -1,9 +1,12 @@
 import logo from '@/assets/logo.png';
+import { useNavigate } from 'react-router-dom';
 import './style.scss';
 
 function Unauthorized() {
+  const navigate = useNavigate();
+
   const handleRedirect = () => {
-    window.location.href = '/admin';
+    navigate(`/`);
   };
 
   return (
