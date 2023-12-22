@@ -43,4 +43,4 @@ Google Client ID may be found at https://console.cloud.google.com/, under sectio
 
 ## Demo
 
-A demo may be found at: https://services.texugo.com.br/demo/react-google-oauth2/
+A demo may be found at: https://luizveronesi.s3.amazonaws.com/react-google-oauth2
